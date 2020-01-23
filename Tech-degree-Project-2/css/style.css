@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.wrapper{
+    padding-right: 16px;
+    padding-left: 16px;
+}
+p {
+    color: #4A4A4A;
+    font-weight: lighter;
+}
+h1, h3, h4 {
+    color: #4A4A4A;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+a:hover {
+    color: #D19F9C;
+}
+.heading-div {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Header*/
+.header {
+    text-align: center;
+}
+.navigation-tp {
+    padding-bottom: 26px;
+}
+.navigation-tp li{
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    display: block;
+    list-style: none;
+}
+.name-student {
+    font-weight: bold;
+}
+.banner {
+    text-align: center;
+}
+.banner p {
+    font-weight: 100;
+    text-align: center;
+    line-height: 29px;
+    width: 80%;
+    margin: 0 auto;
+}
+.img-profile {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;  
+}
+/*Portfolio*/
+.cards {
+    padding-bottom: 34px;
+    background: white;
+    padding-top: 35px;
+}
+.card h3 {
+    display: block;
+}
+.portfolio-img {
+    width: 100%;
+    max-width: 400px;
+}
+.card {
+    text-align: center;
+    padding: 40px;
+}
+.card p {
+    padding-bottom: 0 0 20px 0;
+    
+}
+/*Skills*/
+    .skills {
+    padding: 60px 0;
+    background: #FFFFFF;
+}
+    .skills h2 {
+    color: #4A4A4A;
+}
+   .skills li {
+    padding: 10px;
+    list-style: none;
+    color: #474554;
+    display: block;
+    
+}
+   .skills li:hover {
+    color: #D19F9C;
+    border-bottom: 2px solid lightpink;   
+}
+/*Contact*/
+.contact {
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+.contact h3 {
+    padding-top: 30px;
+}
+.contact p {
+    text-align: center;
+    padding-bottom: 9px;
+}
+/*footer*/
+.main-footer {
+    padding-top: 10px;
+}
+.main-footer a {
+    float: right;
+}
+.main-footer h4 {
+    float: left;
+    margin: 0;
+}
+.nav-768-1024 {
+    display: none;
+}
+.span-cnt {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+/*Media 768px*/
+@media (min-width: 768px) {
+    body {
+    }
+    /*Header*/
+    header {
+        padding-top: 20px;
+    }
+    
+    .name-student {   
+        margin: 0;
+    }
+    .navigation-tp li {
+        display: inline-block;
+        background: transparent;
+    }
+    .banner p {
+        float: left;
+        text-align: left;
+        width: 55%;
+        letter-spacing: 2px;
+    }
+    .img-profile {
+        float: right;
+        max-width: 330px;
+    }
+    /*Portfolio*/
+    .cards {
+        text-align: center;
+    }
+    .card {
+        width: 50%;
+        float: left;
+        padding: 0 50px;
+        display: table-cell;
+    }
+    .card p {
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    
+    /*Skills*/
+    .skills {
+    padding: 60px;
+    background: #FFFFFF;
+}
+    .skills h2 {
+    color: #4A4A4A;
+    padding-bottom: 20px;
+}
+   .skills li {
+    color: #474554;
+    border-bottom: 1px solid transparent;
+    display: inline-grid;
+}
+    .skills li:hover {
+    color: #D19F9C;
+    border-bottom: 2px solid #ACA7CB;
+}
+    /*Contact*/
+    .contact-768-1024 {
+        padding-left: 80px;
+        padding-right: 80px;
+        line-height: 27px;
+    }
+    /*Footer*/
+    .button-top {
+        display: none;
+    }
+    .main-footer {
+        padding: 20px 0;
+    }
+    .main-footer h4 {
+        float: left;
+    }
+    .nav-768-1024 {
+        display: contents;
+    }
+    .nav-768-1024 ul {
+        float: right;
+    }
+    .nav-768-1024 li {
+        display: inline-block;
+        padding-left: 15px;
+    }
+}
+/*Media 1024*/
+@media (min-width: 1024px) {
+    /*header*/
+    header {
+        padding-bottom: 40px;
+    }
+    .navigation-tp {
+        float: right;
+    }
+    .name-student {
+        float: left;
+        height: 20px;
+        margin: 10px 0 0 10px;
+    }
+    .banner p {
+        line-height: 36px;
+        text-align: left;
+    }
+    /*Portfolio*/
+    .cards {
+    
+    }
+    .card {
+        width: 33.33333333333%;
+        padding: 0 50px;
+        padding-bottom: 10px;
+    }
+    .card img {
+        padding-top: 10px;
+    }
+    .card p{
+        padding-left: 0;
+        padding-right: 0;
+        
+        margin-bottom: 0px;
+    }
+}
