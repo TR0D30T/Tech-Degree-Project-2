@@ -85,7 +85,7 @@ a:hover {
     padding: 40px;
 }
 .card p {
-    padding-bottom: 0 0 20px 0;
+    padding-bottom: 20px;
     
 }
 /*Skills*/
@@ -250,6 +250,7 @@ a:hover {
         width: 33.33333333333%;
         padding: 0 50px;
         padding-bottom: 10px;
+        min-height: 365px;
     }
     .card img {
         padding-top: 10px;
@@ -257,7 +258,6 @@ a:hover {
     .card p{
         padding-left: 0;
         padding-right: 0;
-        
         margin-bottom: 0px;
     }
 }
